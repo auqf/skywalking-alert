@@ -1,0 +1,24 @@
+server:
+  port: 58080
+
+spring:
+  dingDing:
+    secret: SECc2b0b299ff3ae6c7cb9768f60bdd1444af539c1cb8ec9fe871a5b23614f966a1
+    webhook: https://oapi.dingtalk.com/robot/send?access_token=7a9580bb65efe43143c56de4d1f90161f1e6a8c60d3104db4ed24c9277c26e00
+    keyword: skywalking
+  mail:
+    host: smtp.exmail.qq.com
+    username: send@jiejie.cn
+    password: send_password
+    receivers: receiver1@jiejie.cn,receiver2@jiejie.cn
+
+    default-encoding: utf-8
+    port: 465   #端口号465或587
+    protocol: smtp
+    properties:
+      mail:
+        debug:
+          false
+        smtp:
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory

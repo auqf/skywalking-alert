@@ -23,7 +23,3 @@ curl -H "Content-Type: application/json" -X POST  --data '[{
     "startTime": 1560524171000
 }]' http://10.101.96.101:58080/alarm/email
 
-
-
-
-xulong.wang@jieshunpay.cn
